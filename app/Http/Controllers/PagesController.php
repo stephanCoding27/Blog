@@ -19,14 +19,16 @@ class PagesController extends Controller
 	/*Go to home page*/
 	public function getIndex()
 	{
-
 		return view('pages/welcome');
 	}
 
 	/*Go to About page*/
 	public function getAbout()
 	{
-		return view('pages/about');
+		$firstName = "Stephan";
+		$lastName = "Remane";
+		$fullName = $firstName. " " .$lastName;
+		return view('pages/about')->with("fullNameView",$fullName);
 	}
 
 	/*Go to contact page*/

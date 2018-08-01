@@ -39,7 +39,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">About Me</div>
+                <div class="title">About {{ $fullNameView }} </div>
                 <p>I like to make laravel pages</p>
             </div>
         </div>
