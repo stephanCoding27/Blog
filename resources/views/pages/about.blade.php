@@ -39,8 +39,8 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">About Me</div>
-                <p>I like to make laravel pages</p>
+                <div class="title">About {{ $data['fullName'] }} </div>
+                <p>E-mail me at: {{ $data['email'] }}</p>
             </div>
         </div>
     </body>
