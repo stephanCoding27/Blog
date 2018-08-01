@@ -40,7 +40,7 @@
         <div class="container">
             <div class="content">
                 <div class="title">About {{ $fullname }} </div>
-                <p>I like to make laravel pages</p>
+                <p>E-mail me at: {{ $email }}</p>
             </div>
         </div>
     </body>

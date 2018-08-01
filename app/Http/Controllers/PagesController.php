@@ -28,7 +28,8 @@ class PagesController extends Controller
 		$firstName = "Stephan";
 		$lastName = "Remane";
 		$fullName = $firstName. " " .$lastName;
-		return view('pages/about')->withFullname($fullName);
+		$email = 'stephan_blog@blog.com';
+		return view('pages/about')->withFullname($fullName)->withEmail($email);
 	}
 
 	/*Go to contact page*/
