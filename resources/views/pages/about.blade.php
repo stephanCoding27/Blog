@@ -39,8 +39,8 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">About {{ $fullname }} </div>
-                <p>E-mail me at: {{ $email }}</p>
+                <div class="title">About {{ $data['fullName'] }} </div>
+                <p>E-mail me at: {{ $data['email'] }}</p>
             </div>
         </div>
     </body>
