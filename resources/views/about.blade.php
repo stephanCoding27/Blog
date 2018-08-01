@@ -39,8 +39,8 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Welcome Everyone</div>
-                <p>This is the beginning of your Lavarel Journey</p>
+                <div class="title">About Me</div>
+                <p>I like to make laravel pages</p>
             </div>
         </div>
     </body>

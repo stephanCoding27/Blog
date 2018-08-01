@@ -39,8 +39,8 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Welcome Everyone</div>
-                <p>This is the beginning of your Lavarel Journey</p>
+                <div class="title">Contact</div>
+                <p>Here you can talk to me</p>
             </div>
         </div>
     </body>
