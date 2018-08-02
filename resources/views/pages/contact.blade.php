@@ -22,7 +22,7 @@
     <!--Default nav bar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/">
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiNLf6OArMkPLPMf5zyATWHLnq7wSUr7X12bqCJ6HNFihbRLOi" width="50" height="30" class="d-inline-block align-top" alt="logo">
               Mia's Blog
           </a>
