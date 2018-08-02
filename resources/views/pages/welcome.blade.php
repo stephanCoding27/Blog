@@ -1,3 +1,5 @@
+@extends('main')
+@section('content')
 <div class="row">
   <div class="col-md-12">
     <div class="jumbotron">
@@ -58,6 +60,6 @@
     <h2>Sidebar</h2>
   </div>
 </div> <!-- end of row div -->
-
+@endsection
 
 

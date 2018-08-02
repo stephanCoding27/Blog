@@ -58,7 +58,7 @@
           </div> <!--navbar collapse -->
         </nav>
 
-        <div class="container">
+        <div ng-view class="container">
 
           @yield('content') <!-- This will be different for every page -->
 
