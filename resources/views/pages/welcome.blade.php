@@ -56,8 +56,6 @@
          </ul>
       </div>
     </nav>
-
-    <h1>Hello, websters!</h1>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
