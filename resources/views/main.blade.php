@@ -1,3 +1,4 @@
+<!-- Layout File -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -58,7 +59,9 @@
       </nav>
 
       <div class="container">
-          @yield('content')<!---->
+
+          @yield('content') <!-- This will be different for every page -->
+
       </div> <!-- end of container-->
 
 
