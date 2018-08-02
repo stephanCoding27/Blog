@@ -58,10 +58,11 @@
           </div> <!--navbar collapse -->
         </nav>
 
-        <div ng-view class="container">
+        <div class="container">
 
           @yield('content') <!-- This will be different for every page -->
-
+          <hr>
+          <p class="text-center">Copyright Stephan - All rights reserved</p>
         </div> <!-- end of container-->
 
 
