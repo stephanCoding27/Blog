@@ -34,7 +34,7 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        return view('posts/store'); //validates the form and stores in DB
     }
 
     /**
