@@ -11,7 +11,8 @@
 			{!! Form::open(['route' => 'posts.store']) !!}
     			{{ Form::label('title', 'Title:')}}
     			{{ Form::text('title', null, array('class' => 'form-control'))}}
-    			{{ }}
+    			{{ Form::label('body', "Post Body:")}}
+    			{{ Form::textarea('body', null, array('class' => 'form-control'))}}
 			{!! Form::close() !!}
 		</div>		
 	</div>
