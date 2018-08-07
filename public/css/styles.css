@@ -1,0 +1,46 @@
+.btn-h1-spacing{
+	margin-top: 18px;
+}
+
+.index-title{
+	margin-top: 20px;
+}
+
+.create-title{
+	margin-top: 20px;
+}
+
+.posts-title{
+	margin-top: 20px;
+}
+
+.lead-show{
+	word-wrap: break-word;
+}
+
+.card-show{
+	margin-top: 20px;
+	max-width: 35rem;
+}
+
+.btn-1-show{
+	margin-bottom:5px ;
+	margin-left: 5px; 
+}
+
+.btn-2-show{
+	margin-bottom: 5px;
+	margin-right: 0px;
+}
+
+.jumbotron{
+	margin-top: 20px;
+}
+
+.row-about{
+	margin-top: 20px;
+}
+
+.row-contact{
+	margin-top: 20px;
+}
