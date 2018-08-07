@@ -17,6 +17,7 @@
     </div> <!-- end of container-->
 
     @include('partials/_javascript')
+    @yield('scripts')
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   </body>
 </html>
