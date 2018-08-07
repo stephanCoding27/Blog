@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Post;
+use Session;
 
 class PostController extends Controller
 {
@@ -47,6 +48,10 @@ class PostController extends Controller
         $post->title = $request->title;
         $post->body = $request->body;
         $post->save();
+
+        Session::flash('success', 'The Blog post was succesfully saved');
+
+
         //redirect to another page
         return redirect()->route('posts.show', $post->id); //validates the form and stores in DB
     }
